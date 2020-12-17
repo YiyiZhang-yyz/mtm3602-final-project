@@ -1,0 +1,115 @@
+body{
+    background-size:cover;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: gray;
+}
+
+/* SETTINGS */
+.settingContainer{
+    margin-top: -30px;
+    position: absolute;
+}
+
+.settingMenu{
+    float: left;
+    display: none;
+}
+
+.settingButton{
+    margin-top: 15px;
+    float: left;
+}
+
+.settingTitle{
+    width: 180px;
+    height: 40px;
+    color: white;
+    background-color:orange;
+    margin-left: -5px;
+    padding-left: 10px;
+}
+
+.settingRadio{
+    height: 50px;
+    color: white;
+    background-color:orange;
+    margin-left: -5px;
+    margin-top: 3px;
+    padding-left: 10px;
+}
+
+.settingSave{
+    background-color:orange;
+    margin-left: -5px;
+    margin-top: 3px;
+    padding-left: 10px;
+}
+
+.save{
+    margin: 5px;
+    padding: 5px;
+    background-color: white;
+    color: orange;
+}
+
+.menuButton{
+    margin: 5px;
+    padding: 5px;
+    background-color:orange ;
+    color: white;
+}
+
+/* TIME */
+.topContainer{
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+.time{
+    font-size: 55px;
+}
+
+.greetings,.date{
+    color:white;
+}
+
+/* FADE */
+.bottomContainer{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+}
+
+.more{
+    margin: 5px;
+    padding: 5px;
+    background-color:orange;
+    color: white;
+}
+
+.fadeContainer{
+    width: 100%;
+    color:white;
+}
+
+.fadeUnit{
+    float: left;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 50%;
+    text-align: center;
+    background-color: orange;
+}
+
+.unitTitle{
+    font-size: 10px;
+}
+
+.unitShow{
+    font-size: 25px;
+}
